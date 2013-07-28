@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# install homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+brew doctor
+brew update
+
+# after homebrew is installed update the path
+echo "export PATH='/usr/local/bin:$PATH'\n" >> ~/.bashrc
+echo "source ~/.bashrc"
+
+# fix required before we can install rvm / ruby
+brew install libksba
+
+# install rvm / fix gcc / install the latest ruby
+curl -L https://get.rvm.io | bash -s stable --rails --ignore-dotfiles
+echo "source ~/.rvm/scripts/rvm" >> ~/.bash_profile
+sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2
+
+# install the fundamentals
+brew install node
+brew install phantomjs
+brew install ack
+brew install tmux
+brew install postgresql
+brew install mysql
+brew install mongo
+
+# add bundler and a few other rails gems
+gem install bundler rails pg foreman thin --no-rdoc --no-ri
+
+# setup pip and virtualenv
+sudo easy_install pip
+sudo pip install virtualenvwrapper
+
+# add jedi globally for better python support in vim
+sudo pip install jedi
+
+# finish the postgres setup
+initdb /usr/local/var/postgres -E utf8
+
+# add color support for git cli
+git config --global color.status auto
+git config --global color.diff auto
+
+# todo => add true exuberant ctags support
+# curl http://ctags.sourceforge.net
+# tar xvzf ctags
+# ./configure && make && make install
+# export PATH="/usr/local/bin:$PATH"
