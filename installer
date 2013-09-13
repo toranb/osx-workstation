@@ -47,7 +47,11 @@ git config --global color.status auto
 git config --global color.diff auto
 
 echo "install the latest vim"
+brew install mercurial
 brew install vim
+
+echo "install zsh"
+brew install zsh
 
 # todo => add true exuberant ctags support
 # curl -O https://dl.dropboxusercontent.com/u/716525/content/downloads/ctags-5.8.tar.gz
