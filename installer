@@ -20,6 +20,7 @@ source ~/.bashrc
 sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2
 
 echo "install the fundamentals"
+brew install tig
 brew install node
 brew install phantomjs
 brew install ack
