@@ -6,27 +6,25 @@ bash script that turns a vanilla macbook pro into a complete python/node/ruby de
 Requirements
 ------------
 
-    1) Install XCode
-    2) Install XCode command line tools
-    3) Pull down this script locally
-    4) bash installer
+    1) Install XCode (command line tools now included)
+    2) Pull down this script locally
+    3) bash installer
 
 What it sets up
 ---------------
 
-* Bundler gem for managing Ruby libraries
-* Homebrew for managing operating system libraries (OS X only)
+* Homebrew for managing operating system libraries
+* Python + pip + virtualenv + virtualenvwrapper
+* RVM for managing versions of the Ruby programming language
+* NodeJS for writing javascript build tools
 * MySQL for storing relational data
 * Postgres for storing relational data
-* Postgres gem for talking to Postgres from Ruby
-* RVM for managing versions of the Ruby programming language
-* Ruby stable for writing general-purpose code
-* Python + pip + virtualenv + virtualenvwrapper
-* PhantomJS for running javascripts headless
-* NodeJS for writing javascript build tools
-* Ack for finding things in files
 * MongoDB for storing documents
+* PhantomJS for running javascripts headless
+* Ack for finding things in files
 * Tmux for saving project state and switching between projects
+* Custom dotfiles (ZSH specific)
+* Vim 7.4 and jedi installed globally for improved python auto complete
 * Exuberant Ctags for indexing files for vim tab completion (todo)
 
 It usually takes around 60 minutes to install (depending on your hardware)

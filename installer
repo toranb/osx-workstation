@@ -62,6 +62,3 @@ git clone https://github.com/JarrodCTaylor/imt_dotfiles.git
 # tar xvzf ctags-5.8.tar.gz
 # cd ctags-5.8 && ./configure && make && make install
 # export PATH="/usr/local/bin:$PATH"
-
-# todo => install virtualbox
-# https://www.virtualbox.org/wiki/Downloads
