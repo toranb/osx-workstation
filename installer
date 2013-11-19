@@ -43,10 +43,6 @@ sudo pip install jedi
 echo "finish the postgres setup"
 initdb /usr/local/var/postgres -E utf8
 
-echo "add color support for git cli"
-git config --global color.status auto
-git config --global color.diff auto
-
 echo "install the latest vim"
 brew install mercurial
 brew install vim
@@ -55,10 +51,17 @@ echo "install zsh"
 brew install zsh
 
 echo "pull down zsh/tmux/vim dotfiles"
-git clone https://github.com/JarrodCTaylor/imt_dotfiles.git
+git clone https://github.com/JarrodCTaylor/imt_dotfiles.git ~/
 
-# todo => add true exuberant ctags support
-# curl -O https://dl.dropboxusercontent.com/u/716525/content/downloads/ctags-5.8.tar.gz
-# tar xvzf ctags-5.8.tar.gz
-# cd ctags-5.8 && ./configure && make && make install
-# export PATH="/usr/local/bin:$PATH"
+echo "install exuberant-ctags"
+brew install ctags 
+sudo mv /usr/bin/ctags /usr/bin/ctags_orig
+
+echo "change the default shell to zsh"
+chsh -s /bin/zsh
+
+touch ~/.rvmrc
+echo rvm_silence_path_mismatch_check_flag=1 >> ~/.rvmrc
+
+echo "install nvm for better node version management"
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh

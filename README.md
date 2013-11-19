@@ -6,7 +6,7 @@ bash script that turns a vanilla macbook pro into a complete python/node/ruby de
 Requirements
 ------------
 
-    1) Install XCode (command line tools now included)
+    1) Install git from the command line (just type git and hit enter)
     2) Pull down this script locally
     3) bash installer
 
