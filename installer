@@ -57,9 +57,14 @@ echo "install exuberant-ctags"
 brew install ctags 
 sudo mv /usr/bin/ctags /usr/bin/ctags_orig
 
+echo "add GNU gettext and gettext-tools for django compile messages"
+brew install gettext
+brew link gettext --force
+
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
 
+echo "silence rvm when its not the first item on the path"
 touch ~/.rvmrc
 echo rvm_silence_path_mismatch_check_flag=1 >> ~/.rvmrc
 
