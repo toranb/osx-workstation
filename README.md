@@ -3,12 +3,11 @@ OSX Workstation
 
 bash script that turns a vanilla macbook pro into a complete python/node/ruby developer machine
 
-Requirements
+Setup
 ------------
 
-    1) Install git from the command line (just type git and hit enter)
-    2) Pull down this script locally
-    3) bash installer
+`curl https://raw.github.com/mattjmorrison/osx-workstation/master/installer | bash`
+
 
 What it sets up
 ---------------

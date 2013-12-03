@@ -9,6 +9,9 @@ echo "after homebrew is installed update the path"
 echo "export PATH='/usr/local/bin:$PATH'\n" >> ~/.bashrc
 source ~/.bashrc
 
+echo "installing git"
+brew install git
+
 echo "fix required before we can install rvm / ruby"
 brew install libksba
 
