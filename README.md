@@ -6,7 +6,7 @@ bash script that turns a vanilla macbook pro into a complete python/node/ruby de
 Setup
 ------------
 
-`curl https://raw.github.com/mattjmorrison/osx-workstation/master/installer | bash`
+`curl https://raw.github.com/toranb/osx-workstation/master/installer | bash`
 
 
 What it sets up
