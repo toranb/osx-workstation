@@ -25,6 +25,9 @@ What it sets up
 * Custom dotfiles (ZSH specific)
 * Vim 7.4 and jedi installed globally for improved python auto complete
 * Exuberant Ctags for indexing files for vim tab completion
+* Google Chrome
+* Alfred
+* iTerm2
 
 It usually takes around 60 minutes to install (depending on your hardware)
 
