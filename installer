@@ -31,7 +31,6 @@ brew install ack
 brew install tmux
 brew install postgresql
 brew install mysql
-brew install mongo
 
 echo "add bundler and a few other rails gems"
 rvm use 2.0
@@ -87,3 +86,6 @@ echo rvm_silence_path_mismatch_check_flag=1 >> ~/.rvmrc
 
 echo "install nvm for better node version management"
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+
+echo "install mongo last as it takes forever ..."
+brew install mongo
