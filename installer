@@ -80,6 +80,12 @@ brew cask install iterm2
 echo "install alfred"
 brew cask install alfred
 
+echo "install virtualbox"
+brew cask install virtualbox
+
+echo "install vagrant"
+brew cask install vagrant
+
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
 
