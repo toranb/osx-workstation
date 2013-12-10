@@ -90,5 +90,11 @@ echo rvm_silence_path_mismatch_check_flag=1 >> ~/.rvmrc
 echo "install nvm for better node version management"
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
+echo "install virtualbox"
+brew cask install virtualbox
+
+echo "install vagrant"
+brew cask install vagrant
+
 echo "install mongo last as it takes forever ..."
 brew install mongo
