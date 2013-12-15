@@ -15,17 +15,18 @@ What it sets up
 * Homebrew for managing operating system libraries
 * Python + pip + virtualenv + virtualenvwrapper
 * RVM for managing versions of the Ruby programming language
-* NodeJS for writing javascript build tools
+* NodeJS and NVM for writing javascript build tools
 * MySQL for storing relational data
 * Postgres for storing relational data
-* MongoDB for storing documents
 * PhantomJS for running javascripts headless
 * Ack for finding things in files
 * Tmux for saving project state and switching between projects
 * Custom dotfiles (ZSH specific)
 * Vim 7.4 and jedi installed globally for improved python auto complete
 * Exuberant Ctags for indexing files for vim tab completion
+* Virtualbox and Vagrant
 * Google Chrome
+* Firefox
 * Alfred
 * iTerm2
 

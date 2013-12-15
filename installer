@@ -95,6 +95,3 @@ brew cask install virtualbox
 
 echo "install vagrant"
 brew cask install vagrant
-
-echo "install mongo last as it takes forever ..."
-brew install mongo
