@@ -30,8 +30,9 @@ brew install postgresql
 brew install mysql
 
 echo "add bundler and a few other rails gems"
+rvm install 2.0
 rvm use 2.0
-gem install bundler rails pg foreman thin --no-rdoc --no-ri
+gem install bundler pg foreman thin --no-rdoc --no-ri
 
 echo "setup pip and virtualenv"
 sudo easy_install pip
