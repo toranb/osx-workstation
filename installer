@@ -28,6 +28,10 @@ brew install ack
 brew install tmux
 brew install postgresql
 brew install mysql
+brew install memcached
+
+echo "launch memcached on startup"
+ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
 
 echo "add bundler and a few other rails gems"
 rvm install 2.0

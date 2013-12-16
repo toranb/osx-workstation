@@ -6,9 +6,9 @@ bash script that turns a vanilla macbook pro into a complete python/node/ruby de
 Requirements
 ------------
 
-1) Install git from the command line (just type git and hit enter)
-2) Pull down this script locally
-3) bash installer
+    1) Install git from the command line (just type git and hit enter)
+    2) Pull down this script locally
+    3) bash installer
 
 
 What it sets up
@@ -27,6 +27,7 @@ What it sets up
 * Vim 7.4 and jedi installed globally for improved python auto complete
 * Exuberant Ctags for indexing files for vim tab completion
 * Virtualbox and Vagrant
+* Memcached
 * Google Chrome
 * Firefox
 * Alfred
