@@ -40,6 +40,7 @@ gem install bundler pg foreman thin --no-rdoc --no-ri
 
 echo "setup pip and virtualenv"
 sudo easy_install pip
+sudo pip install setuptools --no-use-wheel --upgrade
 sudo pip install virtualenvwrapper
 
 echo "add jedi globally for better python support in vim"
