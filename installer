@@ -21,6 +21,7 @@ sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2
 
 echo "install the fundamentals"
 brew install tig
+brew install libjpeg
 brew install tree
 brew install node
 brew install phantomjs
