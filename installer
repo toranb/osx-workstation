@@ -58,9 +58,6 @@ brew install vim
 echo "install zsh"
 brew install zsh
 
-echo "pull down zsh/tmux/vim dotfiles"
-git clone https://github.com/JarrodCTaylor/imt_dotfiles.git ~/
-
 echo "install exuberant-ctags"
 brew install ctags 
 sudo mv /usr/bin/ctags /usr/bin/ctags_orig

@@ -23,7 +23,6 @@ What it sets up
 * PhantomJS for running javascripts headless
 * Ack for finding things in files
 * Tmux for saving project state and switching between projects
-* Custom dotfiles (ZSH specific)
 * Vim 7.4 and jedi installed globally for improved python auto complete
 * Exuberant Ctags for indexing files for vim tab completion
 * Virtualbox and Vagrant
