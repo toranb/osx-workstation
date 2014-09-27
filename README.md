@@ -37,12 +37,11 @@ It usually takes around 30 minutes to install (depending on your hardware)
 
 Optional -if you find pip install breaks with a strange error code
 
-    1) verify you are running python 2.7.5
-    2) if you are, brew install python
-    3) verify you now have python 2.7.6 available in /usr/local/Cellar/python
-    4) symlink globally to fix the issue apple introduced with Xcode 5.1
+    1) verify 'python --version' shows 2.7.5 on the command line
+    2) verify python was installed with brew 'ls /usr/local/Cellar | grep python'
+    3) symlink globally to fix the issue apple introduced with Xcode 5.1
     
-    sudo ln -sf /usr/local/Cellar/python/2.7.6/bin/python /usr/bin/python
+    sudo ln -sf /usr/local/Cellar/python/2.7???/bin/python /usr/bin/python
 
 Credits
 -------
