@@ -24,7 +24,6 @@ brew install tig
 brew install libjpeg
 brew install tree
 brew install node
-brew install phantomjs
 brew install ack
 brew install tmux
 brew install the_silver_searcher
@@ -80,9 +79,6 @@ brew cask install firefox
 
 echo "install iterm2"
 brew cask install iterm2
-
-echo "install alfred"
-brew cask install alfred
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh

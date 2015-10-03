@@ -20,7 +20,6 @@ What it sets up
 * NodeJS and NVM for writing javascript build tools
 * MySQL for storing relational data
 * Postgres for storing relational data
-* PhantomJS for running javascripts headless
 * Ack for finding things in files
 * The Silver Searcher for finding things fast in vim
 * Tmux for saving project state and switching between projects
@@ -30,19 +29,16 @@ What it sets up
 * Memcached
 * Google Chrome
 * Firefox
-* Alfred
 * iTerm2
 
 It usually takes around 30 minutes to install (depending on your hardware)
 
-Optional -if you find pip install breaks with a strange error code
+Required for OSX 10.11
 
-    1) verify 'python --version' shows 2.7.5 on the command line
-    2) verify python was installed with brew 'ls /usr/local/Cellar | grep python'
-    3) symlink globally to fix the issue apple introduced with Xcode 5.1
+    1) reboot into recovery mode (hold command + R as you boot)
+    2) open the terminal application and type `csrutil disable`
+    3) reboot and run the script as shown above
     
-    sudo ln -sf /usr/local/Cellar/python/2.7???/bin/python /usr/bin/python
-
 Credits
 -------
 
