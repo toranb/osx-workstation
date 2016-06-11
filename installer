@@ -84,7 +84,7 @@ echo "change the default shell to zsh"
 chsh -s /bin/zsh
 
 echo "install nvm for better node version management"
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 
 echo "install virtualbox"
 brew cask install virtualbox
