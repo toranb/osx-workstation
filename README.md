@@ -25,7 +25,7 @@ What it sets up
 * Tmux for saving project state and switching between projects
 * Vim 7.4 and jedi installed globally for improved python auto complete
 * Exuberant Ctags for indexing files for vim tab completion
-* Virtualbox and Vagrant
+* Virtualbox
 * Memcached
 * Google Chrome
 * Firefox
