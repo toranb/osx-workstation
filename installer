@@ -67,6 +67,9 @@ echo "add GNU gettext and gettext-tools for django compile messages"
 brew install gettext
 brew link gettext --force
 
+echo "install nvm for better node version management"
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+
 echo "Setting up homebrew-cask"
 brew tap phinze/homebrew-cask
 brew install brew-cask
@@ -82,9 +85,6 @@ brew cask install iterm2
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
-
-echo "install nvm for better node version management"
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 
 echo "install virtualbox"
 brew cask install virtualbox
