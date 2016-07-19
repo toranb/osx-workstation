@@ -18,7 +18,6 @@ What it sets up
 * Python + pip + virtualenv + virtualenvwrapper
 * RVM for managing versions of the Ruby programming language
 * NodeJS and NVM for writing javascript build tools
-* MySQL for storing relational data
 * Postgres for storing relational data
 * Ack for finding things in files
 * The Silver Searcher for finding things fast in vim

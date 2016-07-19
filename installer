@@ -26,9 +26,9 @@ brew install tree
 brew install node
 brew install ack
 brew install tmux
+brew install htop
 brew install the_silver_searcher
 brew install postgresql
-brew install mysql
 brew install memcached
 brew install reattach-to-user-namespace
 
