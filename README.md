@@ -32,12 +32,6 @@ What it sets up
 
 It usually takes around 30 minutes to install (depending on your hardware)
 
-Required for OSX 10.11
-
-    1) reboot into recovery mode (hold command + R as you boot)
-    2) open the terminal application and type `csrutil disable`
-    3) reboot and run the script as shown above
-    
 Credits
 -------
 
