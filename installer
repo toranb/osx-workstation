@@ -51,10 +51,9 @@ sudo pip install jedi
 echo "finish the postgres setup"
 initdb /usr/local/var/postgres -E utf8
 
-echo "install the latest vim (including lua support)"
+echo "install the latest vim"
 brew install python
-brew install mercurial
-brew install vim --with-lua
+brew install vim
 
 echo "install zsh"
 brew install zsh
