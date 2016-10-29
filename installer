@@ -53,13 +53,13 @@ initdb /usr/local/var/postgres -E utf8
 
 echo "install the latest vim"
 brew install python
-brew install vim
+brew install vim --with-lua
 
 echo "install zsh"
 brew install zsh
 
 echo "install exuberant-ctags"
-brew install ctags 
+brew install ctags
 sudo mv /usr/bin/ctags /usr/bin/ctags_orig
 
 echo "add GNU gettext and gettext-tools for django compile messages"
