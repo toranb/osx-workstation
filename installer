@@ -40,16 +40,14 @@ rvm install 2.3
 rvm use 2.3
 gem install bundler pg foreman thin --no-rdoc --no-ri
 
-echo "setup pip and virtualenv"
-sudo easy_install pip
-sudo pip install setuptools --no-use-wheel --upgrade
-sudo pip install virtualenvwrapper
-
 echo "finish the postgres setup"
 initdb /usr/local/var/postgres -E utf8
 
-echo "install the latest vim"
+echo "install python and pip"
 brew install python
+sudo pip install --upgrade pip setuptools
+
+echo "install the latest vim"
 brew install vim --with-lua
 
 echo "install zsh"
