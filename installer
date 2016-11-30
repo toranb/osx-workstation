@@ -45,9 +45,6 @@ sudo easy_install pip
 sudo pip install setuptools --no-use-wheel --upgrade
 sudo pip install virtualenvwrapper
 
-echo "add jedi globally for better python support in vim"
-sudo pip install jedi
-
 echo "finish the postgres setup"
 initdb /usr/local/var/postgres -E utf8
 
@@ -80,6 +77,3 @@ brew cask install iterm2
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
-
-echo "install virtualbox"
-brew cask install virtualbox

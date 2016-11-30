@@ -22,15 +22,21 @@ What it sets up
 * Ack for finding things in files
 * The Silver Searcher for finding things fast in vim
 * Tmux for saving project state and switching between projects
-* Vim 7.4 and jedi installed globally for improved python auto complete
+* Vim 8.0 with lua support
 * Exuberant Ctags for indexing files for vim tab completion
-* Virtualbox
 * Memcached
 * Google Chrome
 * Firefox
 * iTerm2
 
 It usually takes around 30 minutes to install (depending on your hardware)
+
+macOS Sierra
+------------
+
+If you need to pip install psycopg2 run the line below to pull in the command line tools
+
+    xcode-select --install
 
 Credits
 -------
