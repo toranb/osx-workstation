@@ -23,14 +23,13 @@ echo "install the fundamentals"
 brew install tig
 brew install libjpeg
 brew install tree
-brew install ack
 brew install tmux
 brew install htop
 brew install the_silver_searcher
 brew install postgresql
 brew install memcached
 brew install zsh-syntax-highlighting
-brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
+brew install reattach-to-user-namespace
 
 echo "launch memcached on startup"
 ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
@@ -58,20 +57,7 @@ brew install ctags
 sudo mv /usr/bin/ctags /usr/bin/ctags_orig
 
 echo "install nvm for better node version management"
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-
-echo "Setting up homebrew-cask"
-brew tap phinze/homebrew-cask
-brew install brew-cask
-
-echo "install chrome"
-brew cask install google-chrome
-
-echo "install firefox"
-brew cask install firefox
-
-echo "install iterm2"
-brew cask install iterm2
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
