@@ -15,17 +15,15 @@ What it sets up
 ---------------
 
 * Homebrew for managing operating system libraries
-* Python + pip + virtualenv + virtualenvwrapper
+* Python + pip + virtualenv
 * RVM for managing versions of the Ruby programming language
 * NodeJS and NVM for writing javascript build tools
-* Postgres for storing relational data
 * The Silver Searcher for finding things on the file system
 * Tmux for saving project state and switching between projects
 * Vim 8.0 with lua support
 * Exuberant Ctags for indexing files for vim tab completion
-* Memcached
 
-It usually takes around 10 minutes to install (depending on your hardware)
+It usually takes around 5 minutes to install (depending on your hardware)
 
 macOS Sierra
 ------------
