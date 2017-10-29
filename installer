@@ -37,10 +37,9 @@ brew install zsh
 
 echo "install exuberant-ctags"
 brew install ctags
-sudo mv /usr/bin/ctags /usr/bin/ctags_orig
 
 echo "install nvm for better node version management"
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
 echo "change the default shell to zsh"
 chsh -s /bin/zsh
