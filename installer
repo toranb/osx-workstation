@@ -12,13 +12,13 @@ source ~/.bashrc
 echo "install the fundamentals"
 brew install tig
 brew install tree
-brew install tmux
 brew install htop
 brew install the_silver_searcher
 brew install zsh-syntax-highlighting
 brew install vim
 brew install zsh
 brew install ctags
+brew install tmux
 
 echo "install nvm for better node version management"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
